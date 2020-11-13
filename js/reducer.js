@@ -17,5 +17,3 @@ function dispatch(action){
 function render(){
   document.getElementById('container').textContent = state.count
 }
-
-dispatch({type: 'INCREASE_COUNT'})

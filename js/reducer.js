@@ -8,3 +8,7 @@ function reducer(state={count: 0}, action){
       return state
   }
 }
+
+function dispatch(action){
+  state = reducer(state, action)
+}

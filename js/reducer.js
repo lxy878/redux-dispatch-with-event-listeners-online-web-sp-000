@@ -14,5 +14,5 @@ function dispatch(action){
 }
 
 function render(){
-  // document.
+  document.getElementById('container').textContent = state.count
 }
